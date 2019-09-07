@@ -21,10 +21,33 @@
       - Contact 
           - Contact form
           - Sendgrid
+      - User (Devise)
   
 ## User Stories
   - As a user I will be able to create posts to sharewhat I am learning.
   - As a user I want to show the visitors and potential employers examples of my work or stuff which I have built.
   - As a user I want to be able to have visitors contact me through the website.
   - As a user I want user to be able to comment on my content.
+  
+## Modeling and Data
+  **Post**
+          title:string
+          content:string
+  
+  **Project**
+          title:string
+          description:text
+          link:string
+  
+  **User**
+  
+## Think through the pages we need in our app
+  - Home
+  - Post#index
+  - Post#Show
+  - Projects#index
+  - Project#Show
+  - Contact
+  
+  
  
