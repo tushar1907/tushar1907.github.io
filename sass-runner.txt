@@ -1,0 +1,3 @@
+Run this in a seperate sass watch command to detect any change in the scss.
+
+sass --watch scss/application.scss:css/application.css
