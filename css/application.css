@@ -410,6 +410,32 @@ body {
       #main_footer nav i:hover {
         color: #8bc6db; }
 
+input[type="text"],
+input[type="email"],
+input[type="password"], textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 3em;
+  border: 2px solid #e9e9e9;
+  padding: 1em;
+  margin: .5em 0 2em 0; }
+
+textarea {
+  min-height: 20em; }
+
+input[type="submit"], .button {
+  outline: none;
+  background: transparent;
+  border: 2px solid #e9e9e9;
+  text-align: center;
+  font-size: 1em;
+  color: #424652;
+  text-decoration: none;
+  padding: 1em 2em; }
+  input[type="submit"]:hover, .button:hover {
+    border: 2px solid #8bc6db;
+    color: #8bc6db; }
+
 .col-1, .col-2, .col-3 {
   float: left; }
 
@@ -465,6 +491,33 @@ body {
           color: #8bc6db; }
     #posts_wrapper .post hr {
       margin: 3em auto; }
+
+#post_show_content header {
+  text-align: center; }
+  #post_show_content header .date {
+    font-size: .9em;
+    color: #9a9da4;
+    margin: 0; }
+  #post_show_content header h1 {
+    margin: 0; }
+#post_show_content hr {
+  margin: 3em auto; }
+
+#share_box {
+  text-align: center; }
+  #share_box p {
+    padding: 0 0 1em 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424652;
+    font-size: .8em; }
+  #share_box i {
+    color: #424652;
+    padding: 1em 1.5em; }
+    #share_box i:hover {
+      color: #8bc6db;
+      cursor: pointer; }
 
 .pagination:before,
 .pagination:after {
